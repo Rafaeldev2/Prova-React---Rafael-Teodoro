@@ -1,0 +1,35 @@
+.products-content {
+  padding: var(--spacing-unit);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.products-content h2 {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: var(--spacing-unit);
+}
+
+.product-list li {
+  background-color: var(--secondary-color);
+  padding: calc(var(--spacing-unit) * 0.75);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-list a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.product-list a:hover {
+  text-decoration: underline;
+}
